@@ -1,6 +1,5 @@
 package org.ros2.java.maven.example;
 
-import org.ros2.java.maven.Ros2JavaLibraries;
 import org.ros2.rcljava.RCLJava;
 import org.ros2.rcljava.node.Node;
 import org.ros2.rcljava.subscription.Subscription;
@@ -12,7 +11,6 @@ public class ExampleSubscriber {
 	}
 
 	public static void main(String[] args) throws Exception {
-		Ros2JavaLibraries.unpack();
 		long contextHandle = RCLJava.rclJavaInit(args);
 
 		// Let's create a Node

@@ -13,11 +13,6 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.ros2.java</groupId>
-			<artifactId>ros2-java-maven</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>org.ros2.java</groupId>
 			<artifactId>rcljava</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
@@ -30,6 +25,16 @@
 			<groupId>org.ros2.java</groupId>
 			<artifactId>std_msgs_messages</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>1.6.4</version>
 		</dependency>
 	</dependencies>
 	<build>
